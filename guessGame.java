@@ -1,4 +1,4 @@
-package assignment4;
+package complexnumber;
 import java.util.Random;
 import java.util.*;
 
@@ -23,16 +23,6 @@ public class guessGame {
 			System.out.println("Guess the number");
 			this.guess=sc.nextInt();
 			this.count+=1;
-
-			if(guess<result){
-				System.out.println("number is greater then guessed");
-			}
-			else if(guess>result){
-				System.out.println("number is smaller then guessed");
-			}
-			else{
-
-			}
 			
 		}while(guess!=result);
 		

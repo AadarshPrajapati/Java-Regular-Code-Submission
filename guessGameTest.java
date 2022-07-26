@@ -1,4 +1,4 @@
-package assignment4;
+package complexnumber;
 import java.util.*;
 
 public class guessGameTest {
@@ -6,7 +6,7 @@ public class guessGameTest {
 	public static void main(String[] args) {
 		int[] a=new int[4];
 		Scanner sc=new Scanner(System.in);
-		for(int i=1;i<3;i++) {
+		for(int i=1;i<4;i++) {
 			System.out.println("Enter player"+i+" name");
 			guessGame G=new guessGame(sc.next());
 			a[i]=G.play();
@@ -21,7 +21,7 @@ public class guessGameTest {
 			}
 		}
 		
-		System.out.print("player"+(--temp)+"wins");
+		System.out.print("player"+temp+"wins");
 	}
 	
 

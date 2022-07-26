@@ -1,4 +1,4 @@
-package assignment4;
+package complexnumber;
 import java.util.*;
 
 public class SodaCanTester {
